@@ -7,10 +7,10 @@ INTEIRA: Adulto e NÃO tem carteirinha.
 MEIA: todo o resto.
 */
 
-let age = prompt("Informe uma idade: ");
-let isCarteirinha = prompt("Tem carteirinha: ");
-if (age < 18 || age > 60 || isCarteirinha == "SIM") {
-  console.log("meia");
+let age = prompt("Inform your age: ");
+let isWallet = prompt("Have a wallet? ");
+if (age < 18 || age > 60 || isWallet == "y") {  
+  console.log("half");
 } else {
-  console.log("inteira")
+  console.log("entire");
 }
